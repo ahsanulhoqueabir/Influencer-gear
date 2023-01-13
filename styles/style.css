@@ -1,1 +1,72 @@
-s
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 150px;
+}
+.logo{
+	font-size:25px;
+	font-weight:700;
+}
+.nav{
+	display: flex;
+	gap: 30px;
+	font-size: 25px;
+	font-weight: 600;
+}
+.navbar{
+	display: flex;
+	gap: 20px;
+}
+.navbar a{
+	text-decoration: none;
+	color: black;
+}
+/* 1st Div */
+.pre-order{
+	display: flex;
+	justify-content: space-around;
+}
+.Ptext{
+	width: 50%;
+}
+.Ptext h1{
+	font-size: 65px;
+	font-weight: 700;
+}
+.Ptext p{
+	font-size: 25px;
+	font-weight: 700;
+}
+.primary-btn{
+	background-color: #e35d6a;
+	padding: 8px 20px;
+	font-size: 20px;
+	border-radius: 20px;
+	border: none;
+	color: white;
+}
+.ring{
+	height: 460px;
+	width:460px;
+	border: 5px solid gray;
+	border-radius: 50%;
+	position: relative;
+}
+.ring1{
+	height: 350px;
+	width:350px;
+	background: gray;
+	border: 5px solid gray;
+	border-radius: 50%;
+	position:absolute;
+	bottom: 7%;
+	right: 8%;
+	z-index: 10;
+}
+.pimage{
+	position:absolute;
+	bottom: 7%;
+	right: 5%;
+	z-index: 20;
+}
